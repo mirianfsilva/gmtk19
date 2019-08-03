@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
 
+    public bool canWallSlide;
     public bool canDoubleJump;
     public bool isDoubleJumping = false;
 
@@ -56,6 +57,33 @@ public class Player : MonoBehaviour
         {
             velocity.y = 0f;
             isDoubleJumping = false;
+        }
+
+        string spike = "Spike";
+        string end = "End";
+
+        if(controller.collisions.vInfoTag == spike || controller.collisions.hInfoTag == spike)
+        {
+            GameObject.Destroy(this.gameObject);
+            Player[] list = GameObject.FindObjectsOfType<Player>();
+            if (list.Length == 1)
+            {
+                Debug.Log("PERDEU");
+            }
+        }
+
+        if (controller.collisions.vInfoTag == end || controller.collisions.hInfoTag == end)
+        {
+            Player[] list = GameObject.FindObjectsOfType<Player>();
+
+            if(list.Length == 1)
+            {
+                Debug.Log("VENCEU");
+            }
+            else
+            {
+                Debug.Log("PERDEU");
+            }
         }
     }
 
@@ -107,33 +135,36 @@ public class Player : MonoBehaviour
 
     private void HandleWallSliding()
     {
-        wallDirX = (controller.collisions.left) ? -1 : 1;
-        wallSliding = false;
-        if ((controller.collisions.left || controller.collisions.right) && !controller.collisions.below && velocity.y < 0)
+        if (canWallSlide)
         {
-            wallSliding = true;
-
-            if (velocity.y < -wallSlideSpeedMax)
+            wallDirX = (controller.collisions.left) ? -1 : 1;
+            wallSliding = false;
+            if ((controller.collisions.left || controller.collisions.right) && !controller.collisions.below && velocity.y < 0)
             {
-                velocity.y = -wallSlideSpeedMax;
-            }
+                wallSliding = true;
 
-            if (timeToWallUnstick > 0f)
-            {
-                velocityXSmoothing = 0f;
-                velocity.x = 0f;
-                if (directionalInput.x != wallDirX && directionalInput.x != 0f)
+                if (velocity.y < -wallSlideSpeedMax)
                 {
-                    timeToWallUnstick -= Time.deltaTime;
+                    velocity.y = -wallSlideSpeedMax;
+                }
+
+                if (timeToWallUnstick > 0f)
+                {
+                    velocityXSmoothing = 0f;
+                    velocity.x = 0f;
+                    if (directionalInput.x != wallDirX && directionalInput.x != 0f)
+                    {
+                        timeToWallUnstick -= Time.deltaTime;
+                    }
+                    else
+                    {
+                        timeToWallUnstick = wallStickTime;
+                    }
                 }
                 else
                 {
                     timeToWallUnstick = wallStickTime;
                 }
-            }
-            else
-            {
-                timeToWallUnstick = wallStickTime;
             }
         }
     }

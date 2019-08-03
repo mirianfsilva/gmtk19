@@ -74,6 +74,7 @@ public class Controller2D : RaycastController
 
             if (hit)
             {
+                collisions.hInfoTag = hit.collider.tag;
                 if (hit.distance == 0)
                 {
                     continue;
@@ -175,6 +176,7 @@ public class Controller2D : RaycastController
 
             if (hit)
             {
+                collisions.vInfoTag = hit.collider.tag;
                 if (hit.collider.tag == "Through")
                 {
                     if (directionY == 1 || hit.distance == 0)
@@ -240,6 +242,9 @@ public class Controller2D : RaycastController
         public Vector2 moveAmountOld;
         public int faceDir;
         public bool fallingThroughPlatform;
+
+        public string hInfoTag;
+        public string vInfoTag;
 
         public void Reset()
         {
