@@ -25,12 +25,12 @@ public class Player : MonoBehaviour
     private float gravity;
     private float maxJumpVelocity;
     private float minJumpVelocity;
-    private Vector3 velocity;
+    private protected Vector3 velocity;
     private float velocityXSmoothing;
 
-    private Controller2D controller;
+    private protected Controller2D controller;
 
-    private Vector2 directionalInput;
+    private protected Vector2 directionalInput;
     private bool wallSliding;
     private int wallDirX;
 
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
     }
 
-    private void Update()
+    private protected void Update()
     {
         CalculateVelocity();
         HandleWallSliding();
