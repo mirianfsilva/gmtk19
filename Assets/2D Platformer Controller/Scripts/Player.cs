@@ -62,21 +62,20 @@ public class Player : MonoBehaviour
         string spike = "Spike";
         string end = "End";
 
-        if(controller.collisions.vInfo.CompareTag(spike) || controller.collisions.hInfo.CompareTag(spike))
+        if (controller.collisions.vInfo != null && controller.collisions.hInfo != null && (controller.collisions.vInfo.CompareTag(spike) || controller.collisions.hInfo.CompareTag(spike)))
         {
             GameObject.Destroy(this.gameObject);
             Player[] list = GameObject.FindObjectsOfType<Player>();
-            if (list.Length == 1)
+            if (list.Length == 0)
             {
                 Debug.Log("PERDEU");
             }
         }
 
-        if (controller.collisions.vInfo.CompareTag(end) || controller.collisions.hInfo.CompareTag(end))
+        if (controller.collisions.vInfo != null && controller.collisions.hInfo != null && (controller.collisions.vInfo.CompareTag(end) || controller.collisions.hInfo.CompareTag(end)))
         {
             Player[] list = GameObject.FindObjectsOfType<Player>();
-
-            if(list.Length == 1)
+            if (list.Length == 1)
             {
                 Debug.Log("VENCEU");
             }
