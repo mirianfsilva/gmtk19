@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
         string spike = "Spike";
         string end = "End";
 
-        if(controller.collisions.vInfoTag == spike || controller.collisions.hInfoTag == spike)
+        if(controller.collisions.vInfo.CompareTag(spike) || controller.collisions.hInfo.CompareTag(spike))
         {
             GameObject.Destroy(this.gameObject);
             Player[] list = GameObject.FindObjectsOfType<Player>();
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (controller.collisions.vInfoTag == end || controller.collisions.hInfoTag == end)
+        if (controller.collisions.vInfo.CompareTag(end) || controller.collisions.hInfo.CompareTag(end))
         {
             Player[] list = GameObject.FindObjectsOfType<Player>();
 

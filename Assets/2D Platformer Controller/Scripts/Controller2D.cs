@@ -74,7 +74,7 @@ public class Controller2D : RaycastController
 
             if (hit)
             {
-                collisions.hInfoTag = hit.collider.tag;
+                collisions.hInfo = hit.collider.gameObject;
                 if (hit.distance == 0)
                 {
                     continue;
@@ -176,7 +176,7 @@ public class Controller2D : RaycastController
 
             if (hit)
             {
-                collisions.vInfoTag = hit.collider.tag;
+                collisions.vInfo = hit.collider.gameObject;
                 if (hit.collider.tag == "Through")
                 {
                     if (directionY == 1 || hit.distance == 0)
@@ -243,8 +243,8 @@ public class Controller2D : RaycastController
         public int faceDir;
         public bool fallingThroughPlatform;
 
-        public string hInfoTag;
-        public string vInfoTag;
+        public GameObject hInfo;
+        public GameObject vInfo;
 
         public void Reset()
         {
@@ -255,6 +255,9 @@ public class Controller2D : RaycastController
 
             slopeAngleOld = slopeAngle;
             slopeAngle = 0f;
+
+            hInfo = null;
+            vInfo = null;
         }
     }
 }
