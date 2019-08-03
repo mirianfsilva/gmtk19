@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public Vector2 wallLeap;
 
     public bool canDoubleJump;
-    private bool isDoubleJumping = false;
+    public bool isDoubleJumping = false;
 
     public float wallSlideSpeedMax = 3f;
     public float wallStickTime = .25f;
@@ -48,9 +48,14 @@ public class Player : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime, directionalInput);
 
-        if (controller.collisions.above || controller.collisions.below)
+        if (controller.collisions.above)
         {
             velocity.y = 0f;
+        }
+        else if (controller.collisions.below)
+        {
+            velocity.y = 0f;
+            isDoubleJumping = false;
         }
     }
 
