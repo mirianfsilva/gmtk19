@@ -287,6 +287,22 @@
             }
         },
         {
+            "Key": "4a454996-5a3c-4cd7-a5d8-15ad64c42d87",
+            "Value": {
+                "id": "94fcecf1-5d65-4004-8b60-890cbadf7e15",
+                "resourcePath": "rooms\\rm_six\\rm_six.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4f7202d6-c479-4f0b-a889-a30c47fd8d45",
+            "Value": {
+                "id": "9ae6c5da-1970-407b-a3c9-101efce5a03e",
+                "resourcePath": "sprites\\bgGradient\\bgGradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50189b29-b2b6-4f3d-8f8d-942121c962bb",
             "Value": {
                 "id": "f0efea20-aa15-4eb5-9350-e2249ce10593",
