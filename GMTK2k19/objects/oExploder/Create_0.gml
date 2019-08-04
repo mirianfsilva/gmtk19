@@ -3,5 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-nseconds = 3;
-alarm[0] = nseconds * 60
+explosionRadius = 100;
+secondsToBlow = seconds_to_explode;
+alarm[1] = 120;
