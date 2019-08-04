@@ -12,4 +12,13 @@ if(willFall && falling)
 	MoveCollision(oSpike, ref_hspd, ref_vspd);
 
 	y = y + vspd;
+	
+	var obj = instance_place(x, y + 1, oBase);
+	if(obj != noone)
+	{
+		with(obj)
+		{
+			instance_destroy(self);
+		}
+	}
 }

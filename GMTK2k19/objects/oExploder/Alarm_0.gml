@@ -12,7 +12,22 @@ else
 	{
 		if (distance_to_point(other.x, other.y) <= other.explosionRadius)
 		{
-			instance_destroy();
+			instance_destroy(self);
+		}
+	}
+	with(oFallingGround)
+	{
+		if (distance_to_point(other.x, other.y) <= other.explosionRadius)
+		{
+			willFall = true;
+			alarm[0] = 100;
+		}
+	}
+	with(oSparseGround)
+	{
+		if (distance_to_point(other.x, other.y) <= other.explosionRadius)
+		{
+			instance_destroy(self);
 		}
 	}
 }
