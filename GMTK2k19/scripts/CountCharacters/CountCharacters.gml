@@ -1,1 +1,1 @@
-return instance_number(oStandard)
+return instance_number(oBase)
