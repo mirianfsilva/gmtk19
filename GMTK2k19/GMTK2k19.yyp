@@ -271,11 +271,27 @@
             }
         },
         {
+            "Key": "c04969d0-21ab-4861-b80f-a02c8051a40b",
+            "Value": {
+                "id": "6621683d-8022-4eac-803c-6124c4582485",
+                "resourcePath": "objects\\oFallingGround\\oFallingGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c3c97372-ddd4-48ec-9b47-4aacd9c61e79",
             "Value": {
                 "id": "de641af4-a959-4204-99f7-5c109d2f6b4c",
                 "resourcePath": "views\\c3c97372-ddd4-48ec-9b47-4aacd9c61e79.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8a5c1da-9071-46be-b8fa-d533798ff56d",
+            "Value": {
+                "id": "8de885b4-c9c2-4790-a0fc-26d0a32fbf6c",
+                "resourcePath": "sprites\\sFallingGround\\sFallingGround.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

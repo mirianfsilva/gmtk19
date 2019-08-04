@@ -4,5 +4,5 @@
 hspd = 0;
 vspd = 0;
 grv = 0.3;
-moveSpd = 4;
-jump_str = 7;
+willFall = false;
+falling = false;
