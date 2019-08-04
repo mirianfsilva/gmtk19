@@ -642,7 +642,7 @@
             "Key": "d44f9fa4-5452-47be-9c40-263b7145522c",
             "Value": {
                 "id": "6859c86f-f89e-4fa9-8cae-41eeddc5b1ab",
-                "resourcePath": "objects\\oGroundLeftLine\\oGroundLeftLine.yy",
+                "resourcePath": "objects\\oGround_HorRIGHT\\oGround_HorRIGHT.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -658,7 +658,7 @@
             "Key": "d96b3cc1-9ccd-411a-ae2e-27b98e446319",
             "Value": {
                 "id": "fe69b942-d2a4-4791-acad-b9b477cf187f",
-                "resourcePath": "objects\\oGroundTopBottomLine\\oGroundTopBottomLine.yy",
+                "resourcePath": "objects\\oGround_HorMID\\oGround_HorMID.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -674,7 +674,7 @@
             "Key": "e6d64f16-2723-4915-b095-8393f4cde181",
             "Value": {
                 "id": "2b05096e-7995-4940-bb66-a20a3b7df0cc",
-                "resourcePath": "objects\\oGroundRightLine\\oGroundRightLine.yy",
+                "resourcePath": "objects\\oGround_HorLEFT\\oGround_HorLEFT.yy",
                 "resourceType": "GMObject"
             }
         },
