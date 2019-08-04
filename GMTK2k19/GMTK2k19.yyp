@@ -84,9 +84,9 @@
                 "id": "a3727202-59ea-44c0-91ba-d76f7e46210c",
                 "resourcePath": "rooms\\InstructionsScreen\\InstructionsScreen.yy",
                 "resourceType": "GMRoom"
-	    }
-	},
-	{
+            }
+        },
+        {
             "Key": "1324b244-cff7-4d00-85a9-a0a6d04f416b",
             "Value": {
                 "id": "c88bdd93-680b-4b30-9a65-154a2d878085",
@@ -508,6 +508,14 @@
                 "id": "4621d736-f855-4496-9895-a64fcd993a20",
                 "resourcePath": "views\\ade23425-a10a-453b-97c6-50d3805491e1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3990a82-a213-44ec-a460-d6b962d455f3",
+            "Value": {
+                "id": "07ea2261-4685-428f-8cd7-ce540c104cc5",
+                "resourcePath": "sprites\\sInstructionBackground\\sInstructionBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
