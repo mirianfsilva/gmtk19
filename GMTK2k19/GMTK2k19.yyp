@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3aa80a34-c82f-4701-88a0-33343e1aebb9",
+            "Value": {
+                "id": "472efe42-5065-4e35-8025-345991bd9df2",
+                "resourcePath": "objects\\oMovingPlatform\\oMovingPlatform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ce841b8-b40e-415a-b48c-10f4438aaf2b",
             "Value": {
                 "id": "cd0eecb7-0946-4901-b77d-c41af1692df3",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "695f237a-3919-494e-8baf-3c8b3037935b",
+            "Value": {
+                "id": "d05d812f-21d0-44b0-a390-48acf0b81d2a",
+                "resourcePath": "objects\\oMovingPlatformLimit\\oMovingPlatformLimit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6a1a20d2-faa0-4617-9cd5-8e969c378e8e",
             "Value": {
                 "id": "bda1456d-2fcf-4c4b-ac2e-7819697e56f8",
@@ -251,6 +267,14 @@
             "Value": {
                 "id": "5813844d-cde7-4403-af26-4dba6c4e3f7a",
                 "resourcePath": "objects\\oSparseGround\\oSparseGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85c27805-f293-42bf-b698-e75d655a20d5",
+            "Value": {
+                "id": "8f68fe54-4ad3-4597-abe4-89aa739f843d",
+                "resourcePath": "objects\\oJumper\\oJumper.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "9eaa8b74-29d4-4c04-9db0-8e62982f9317",
+            "Value": {
+                "id": "7278c11b-f8e2-4b75-aea6-ed748cabe22d",
+                "resourcePath": "sprites\\sMovingPlatformLimit\\sMovingPlatformLimit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a09d143e-f4e8-4842-82c0-781c1beb7359",
             "Value": {
                 "id": "38b7a634-fedd-4781-bddf-633f2909d271",
@@ -375,6 +407,14 @@
             }
         },
         {
+            "Key": "ba6d7cd4-a828-48bc-99bd-a6950837fcda",
+            "Value": {
+                "id": "51640b94-d5fd-4f52-bc07-ff389f92b7fd",
+                "resourcePath": "sprites\\sMovingPlatform\\sMovingPlatform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c04969d0-21ab-4861-b80f-a02c8051a40b",
             "Value": {
                 "id": "6621683d-8022-4eac-803c-6124c4582485",
@@ -420,14 +460,6 @@
                 "id": "8de885b4-c9c2-4790-a0fc-26d0a32fbf6c",
                 "resourcePath": "sprites\\sFallingGround\\sFallingGround.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c911ffb2-5fd4-4089-aade-e4ab3d64fe48",
-            "Value": {
-                "id": "04798b7b-b7f5-46ea-bd92-5dd4bf65eafd",
-                "resourcePath": "objects\\oJumper\\oJumper.yy",
-                "resourceType": "GMObject"
             }
         },
         {

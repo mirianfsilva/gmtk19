@@ -1,23 +1,14 @@
 {
-    "id": "85c27805-f293-42bf-b698-e75d655a20d5",
+    "id": "695f237a-3919-494e-8baf-3c8b3037935b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oJumper",
+    "name": "oMovingPlatformLimit",
     "eventList": [
-        {
-            "id": "ba6fdbc3-c603-4b02-8b13-8907735daee3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "85c27805-f293-42bf-b698-e75d655a20d5"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "394b5ce6-4817-4a0e-b4f8-eeeab56ececf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7cb90975-b1fc-4be3-83cc-67331df2c00f",
+    "spriteId": "9eaa8b74-29d4-4c04-9db0-8e62982f9317",
     "visible": true
 }

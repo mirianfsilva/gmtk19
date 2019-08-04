@@ -17,7 +17,10 @@ if(key_jump) && (isGrounded)
 hspd = move * moveSpd;
 vspd = vspd + grv;
 
-ref_hspd = [self, "hspd"];
+hspd_final = hspd + hspd_carry;
+hspd_carry = 0;
+
+ref_hspd = [self, "hspd_final"];
 ref_vspd = [self, "vspd"];
 MoveCollision(oBase, ref_hspd, ref_vspd);
 MoveCollision(oGround, ref_hspd, ref_vspd);
@@ -37,5 +40,5 @@ if(fallinGround != noone)
 	}
 }
 
-x = x + hspd;
+x = x + hspd_final;
 y = y + vspd;
