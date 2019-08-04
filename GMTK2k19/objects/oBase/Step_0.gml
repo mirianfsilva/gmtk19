@@ -4,6 +4,8 @@
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 
+key_restart = keyboard_check(vk_tab);
+
 key_jump = keyboard_check(vk_space);
 
 var move = key_right - key_left;
@@ -12,6 +14,11 @@ var isGrounded = IsGrounded();
 if(key_jump) && (isGrounded)
 {
 	vspd = -jump_str;
+}
+
+if(key_restart)
+{
+	room_restart()
 }
 
 hspd = move * moveSpd;
