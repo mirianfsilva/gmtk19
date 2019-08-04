@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oCharButton",
     "eventList": [
-        
+        {
+            "id": "a6ccc70d-7b2a-4793-b38e-428bc96be1aa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "3dfe5903-9838-4bbc-a85f-256422f4345f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
