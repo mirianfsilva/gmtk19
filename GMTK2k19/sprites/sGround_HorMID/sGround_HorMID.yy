@@ -2,7 +2,7 @@
     "id": "85a6c389-c17d-4cdd-bda9-be1fd3c91fbd",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sGroundTopBottomLine",
+    "name": "sGround_HorMID",
     "For3D": false,
     "HTile": false,
     "VTile": false,
