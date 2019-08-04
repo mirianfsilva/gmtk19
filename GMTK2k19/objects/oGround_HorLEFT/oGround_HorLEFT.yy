@@ -2,7 +2,7 @@
     "id": "e6d64f16-2723-4915-b095-8393f4cde181",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGroundRightLine",
+    "name": "oGround_HorLEFT",
     "eventList": [
         
     ],
