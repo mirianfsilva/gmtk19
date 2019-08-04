@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -260,6 +260,14 @@
                 "id": "c4f40cd8-317f-41fc-a92d-a631b5d86928",
                 "resourcePath": "scripts\\IsGrounded\\IsGrounded.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "49bec4b0-daa6-4f0c-879b-6c87246553a3",
+            "Value": {
+                "id": "e0b31701-6154-451e-8774-4eb9f41f8dd9",
+                "resourcePath": "rooms\\rm_three\\rm_three.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
