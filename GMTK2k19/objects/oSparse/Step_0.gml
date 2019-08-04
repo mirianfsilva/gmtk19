@@ -21,21 +21,6 @@ ref_hspd = [self, "hspd"];
 ref_vspd = [self, "vspd"];
 MoveCollision(oBase, ref_hspd, ref_vspd);
 MoveCollision(oGround, ref_hspd, ref_vspd);
-MoveCollision(oSparseGround, ref_hspd, ref_vspd);
-
-//Trigga a queda da plataforma
-var fallinGround = instance_place(x, y + 1, oFallingGround);
-if(fallinGround != noone)
-{
-	with(fallinGround)
-	{
-		if(!willFall)
-		{
-			willFall = true;
-			alarm[0] = 100;
-		}
-	}
-}
 
 x = x + hspd;
 y = y + vspd;

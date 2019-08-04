@@ -1,8 +1,8 @@
 {
-    "id": "48f6f7ea-6cf3-474a-bf3c-c4f6b4cc7a5c",
+    "id": "2c12bf43-e4cf-4a75-9fb8-4ce1b3f8c68b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "CheckMoveCollision",
+    "name": "PushPushableBlock",
     "IsCompatibility": false,
     "IsDnD": false
 }

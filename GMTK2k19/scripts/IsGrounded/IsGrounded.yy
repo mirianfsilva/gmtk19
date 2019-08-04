@@ -1,8 +1,8 @@
 {
-    "id": "440d3ee5-ab5d-4fdc-b0aa-2f8d0dbd3f5d",
+    "id": "48f6f7ea-6cf3-474a-bf3c-c4f6b4cc7a5c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "CheckSingleMoveCollision",
+    "name": "IsGrounded",
     "IsCompatibility": false,
     "IsDnD": false
 }
